@@ -1,0 +1,31 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/eslint': file:./projects/eslint.tgz
+  '@rush-temp/example-library': file:./projects/example-library.tgz
+  '@rush-temp/example-website': file:./projects/example-website.tgz
+
+dependencies:
+  '@rush-temp/eslint': file:projects/eslint.tgz
+  '@rush-temp/example-library': file:projects/example-library.tgz
+  '@rush-temp/example-website': file:projects/example-website.tgz
+
+packages:
+
+  file:projects/eslint.tgz:
+    resolution: {integrity: sha512-4CLl3gDzT6flIFubauM8wbvvaaOae5Z0k4nvP0kz2/V/30amRthc3JeWhdfnyFwuPCAr6XszAqx3+LsifgkC+g==, tarball: file:projects/eslint.tgz}
+    name: '@rush-temp/eslint'
+    version: 0.0.0
+    dev: false
+
+  file:projects/example-library.tgz:
+    resolution: {integrity: sha512-F/m6iv095FJCusUFy9aqCvgg2dHtf0mhFxIkCxXYqiWdNniL7kEDydW4IwOsvYXJKqphn21Ea67QbO7ExzpvHg==, tarball: file:projects/example-library.tgz}
+    name: '@rush-temp/example-library'
+    version: 0.0.0
+    dev: false
+
+  file:projects/example-website.tgz:
+    resolution: {integrity: sha512-dTxQ/0wNRg8tirl8ovR+LjJSYJQa5EwbK9HVE9PlgS7r7+C2U9Ydl+kiVl/n95E/9X5NbCxhfII/F2yKFGn1Bg==, tarball: file:projects/example-website.tgz}
+    name: '@rush-temp/example-website'
+    version: 0.0.0
+    dev: false

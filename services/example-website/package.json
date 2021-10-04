@@ -1,0 +1,8 @@
+{
+  "name": "@services/example-website",
+  "version": "0.0.1",
+  "description": "Example website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
